@@ -1,0 +1,33 @@
+HTTP cache proxy
+
+developer: wg72, wc148
+
+This is a web proxy with cache implemented, supporting GET/POST/CONNECT method.
+
+To start,
+
+make
+
+run ./proxy
+
+To kill daemon, kill -9 pid
+
+ps: docker not working, sorry
+    daemon version cannot write to log file
+
+-----------------testcase-----------------------
+testing GET method:
+open "http://people.duke.edu/~bmr23/ece568/class.html"
+open "www.cplusplus.com"
+
+testing POST method:
+open "http://httpbin.org/forms/post"
+
+testing chunked message body:
+open "http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx"
+
+testing CONNECT method:
+open "https://www.youtube.com"
+
+testing cache:
+

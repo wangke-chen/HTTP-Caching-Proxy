@@ -1,0 +1,142 @@
+2: POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:47:31 2019
+
+2: Requesting POST http://ocsp.int-x3.letsencrypt.org/ HTTP/1.1
+ from ocsp.int-x3.letsencrypt.org
+2: Received HTTP/1.1 200 OK
+ from http://ocsp.int-x3.letsencrypt.org/
+8: CONNECT cdn.shopify.com:443 HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:47:31 2019
+
+8Tunnel closed
+4: CONNECT cdn.shopify.com:443 HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:47:31 2019
+
+4Tunnel closed
+13: POST http://ocsp.pki.goog/GTSGIAG3 HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:47:31 2019
+
+13: Requesting POST http://ocsp.pki.goog/GTSGIAG3 HTTP/1.1
+ from ocsp.pki.goog
+13: Received HTTP/1.1 200 OK
+ from http://ocsp.pki.goog/GTSGIAG3
+11: CONNECT ajax.googleapis.com:443 HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:47:31 2019
+
+11Tunnel closed
+12: GET http://www.cplusplus.com/ HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:50 2019
+
+12 not in cache
+12: Requesting GET http://www.cplusplus.com/ HTTP/1.1
+ from www.cplusplus.com
+12: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/
+12cached, but require re-validation
+13: GET http://www.cplusplus.com/v321/main.css HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+13 not in cache
+13: Requesting GET http://www.cplusplus.com/v321/main.css HTTP/1.1
+ from www.cplusplus.com
+13: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/v321/main.css
+13cached, but require re-validation
+14: GET http://www.cplusplus.com/v321/main.js HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+14 not in cache
+14: Requesting GET http://www.cplusplus.com/v321/main.js HTTP/1.1
+ from www.cplusplus.com
+14: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/v321/main.js
+14cached, but require re-validation
+25: cept-Encoding: gzip, deflate from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+15: GET http://www.cplusplus.com/img/welcometo.gif HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+15 not in cache
+15: Requesting GET http://www.cplusplus.com/img/welcometo.gif HTTP/1.1
+ from www.cplusplus.com
+15: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/img/welcometo.gif
+15cached, but require re-validation
+16: GET http://www.cplusplus.com/ico/social_googleplus.png HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+16 not in cache
+16: Requesting GET http://www.cplusplus.com/ico/social_googleplus.png HTTP/1.1
+ from www.cplusplus.com
+16: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/ico/social_googleplus.png
+16cached, but require re-validation
+17: GET http://www.cplusplus.com/ico/social_facebook.png HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+17 not in cache
+17: Requesting GET http://www.cplusplus.com/ico/social_facebook.png HTTP/1.1
+ from www.cplusplus.com
+17: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/ico/social_facebook.png
+17cached, but require re-validation
+18: GET http://www.cplusplus.com/ico/social_twitter.png HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+18 not in cache
+18: Requesting GET http://www.cplusplus.com/ico/social_twitter.png HTTP/1.1
+ from www.cplusplus.com
+18: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/ico/social_twitter.png
+18cached, but require re-validation
+19: GET http://www.cplusplus.com/v321/bgv.png HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+19 not in cache
+19: Requesting GET http://www.cplusplus.com/v321/bgv.png HTTP/1.1
+ from www.cplusplus.com
+19: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/v321/bgv.png
+19cached, but require re-validation
+23: GET http://www.cplusplus.com/img/bg_art.gif HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+23 not in cache
+23: Requesting GET http://www.cplusplus.com/img/bg_art.gif HTTP/1.1
+ from www.cplusplus.com
+23: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/img/bg_art.gif
+23cached, but require re-validation
+20: GET http://www.cplusplus.com/v321/bgh.png HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+20 not in cache
+20: Requesting GET http://www.cplusplus.com/v321/bgh.png HTTP/1.1
+ from www.cplusplus.com
+20: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/v321/bgh.png
+20cached, but require re-validation
+27: GET http://www.cplusplus.com/img/bg_sch.gif HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:51 2019
+
+27 not in cache
+27: Requesting GET http://www.cplusplus.com/img/bg_sch.gif HTTP/1.1
+ from www.cplusplus.com
+27: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/img/bg_sch.gif
+27cached, but require re-validation
+28: GET http://www.cplusplus.com/favicon.ico HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:48:52 2019
+
+28 not in cache
+28: Requesting GET http://www.cplusplus.com/favicon.ico HTTP/1.1
+ from www.cplusplus.com
+28: Received HTTP/1.1 200 OK
+ from http://www.cplusplus.com/favicon.ico
+28cached, but require re-validation
+30: GET http://www.rabihyounes.com/images/vcard/icon.ico HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 03:49:17 2019
+
+30 not in cache
+30: Requesting GET http://www.rabihyounes.com/images/vcard/icon.ico HTTP/1.1
+ from www.rabihyounes.com
+30: Received HTTP/1.1 200 OK
+ from http://www.rabihyounes.com/images/vcard/icon.ico
+30cached expired at  Thu, 07 Mar 2019 03:49:17 GMT
+2: POST http://ocsp.comodoca.com/ HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 04:51:19 2019
+
+2: Requesting POST http://ocsp.comodoca.com/ HTTP/1.1
+ from ocsp.comodoca.com
+2: Received HTTP/1.1 200 OK
+ from http://ocsp.comodoca.com/
+11: POST http://ocsp.pki.goog/GTSGIAG3 HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 04:51:20 2019
+
+11: Requesting POST http://ocsp.pki.goog/GTSGIAG3 HTTP/1.1
+ from ocsp.pki.goog
+11: Received HTTP/1.1 200 OK
+ from http://ocsp.pki.goog/GTSGIAG3
+1: CONNECT whatis.techtarget.com:443 HTTP/1.1 from 10.197.26.40 @ Thu Feb 28 04:51:19 2019
+
+1: Tunnel closed

@@ -1,0 +1,29 @@
+Feb 23th:
+Remote server will always listen on port 80.
+Host computer should connect the proxy on port 12345.
+Header field can be case-insensitive.
+
+Feb 24th:
+Length of header fields and message bodies can be various.
+Header field of requests and responses would end with "\r\n\r\n".
+Message bodies' length would depend on the header field---"Content-Length".
+Some message bodies might be encoded as chunked or gzip.
+If requests with multiple Content-Length header fields having differing field-value, the server should respond with a 400 status code.
+If responses with multiple Content-Length header fields having differing field-value, the proxy should send a 502 status code.
+
+Feb 25th:
+What if the message communicating between brower and proxy or proxy and remote servers is 0?
+
+Feb 26th:
+The resource of stack is limited.
+The browser's ip should be stored on heap to transfer between functions.
+
+Our proxy is able to:
+Deal with message with size of 0. Once we send or receive a message with size of 0, we return the function with -1, indicating error.
+Deal with the situation that the proxy cannot create a socket. We will repeat the socket-creating process until success.
+Deal with chunked messages, We will decode it as instructed on RFC 7230.
+Deal with the browser tab closing halfway. We will get a message from browser with size of 0, and then we return -1 to indicate the connection is closed.
+
+We mostly return -1 in some function when meeting some errors and then the current thread is able to go to the end.
+And our proxy maintains a exception level of basic exception guarantee.
+
